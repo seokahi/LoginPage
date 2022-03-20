@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "BMJUA";
+    src: url("font/BMJUA_ttf.ttf");
+}
+
+body {
+    font-family: "BMJUA";
+    font-size: 13px;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+.login {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    background-color: #fff;
+    padding: 5px;
+    position: relative;
+}
+
+.header ::before {
+    content:url("SKH_LION_img/close.png");
+    position:absolute;
+    right: 30px;
+    top: 22px;
+}
+
+.login-type {
+    text-align: center;
+}
+
+a.btn {
+    display: block;   
+    text-decoration: none;
+    color: gray;
+    border: 1px solid;
+    text-align: center;
+    border-radius:2px;
+    font-size: 20px;
+    padding: 20px;
+    opacity: 0.8;
+    margin: 10px;
+    position: relative;
+}
+
+p.find-text {
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+p.find-text:hover {
+    text-decoration: underline;
+}
+
+a.btn:hover {
+    opacity: 1;
+}
+
+.login-type a:nth-of-type(1) {
+    background-color:dodgerblue;
+    color: #fff;
+    font-size:30px;
+}
+
+.login-type a:nth-of-type(2) {
+    border-color: lightgray;
+}
+
+.login-type a:nth-of-type(2)::before {
+    content:url("SKH_LION_img/icon_google.png");
+    position:absolute;
+    left: 15px;
+    top: 20px;
+}
+
+.login-type a:nth-of-type(3) {
+    border-color: deepskyblue;
+}
+
+.login-type a:nth-of-type(3)::before {
+    content:url("SKH_LION_img/icon_facebook.png");
+    position:absolute;
+    left: 15px;
+    top: 20px;
+}
+
+.login-type a:nth-of-type(4) {
+    border-color:lawngreen;
+}
+
+.login-type a:nth-of-type(4)::before {
+    content:url("SKH_LION_img/icon_naver.png");
+    position:absolute;
+    left: 15px;
+    top: 20px;
+}
+
+.login-type a:nth-of-type(5) {
+    border-color:gold;
+}
+
+.login-type a:nth-of-type(5)::before {
+    content:url("SKH_LION_img/icon_kakao.png");
+    position:absolute;
+    left: 15px;
+    top: 20px;
+}
+
+
+span.or-txt {
+    /* border: 1px solid red; */
+    width: 406px;
+    height: 61px;
+    padding-left: 5px;
+    display: block;
+    margin: 10px;
+    position: relative;
+}
+
+span.or-txt::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    background-color:  #dedede;
+    width: 44%;
+    height:  1px;
+}
+
+span.or-txt:after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: 0;
+    background-color:  #dedede;
+    width: 44%;
+    height:  1px;
+}
+
+.footer {
+    padding: 5px;
+    margin-top: 25px;
+    color:darkgray;
+    font-size: 17px;
+}
+
+.footer img {
+    vertical-align: middle;
+}
